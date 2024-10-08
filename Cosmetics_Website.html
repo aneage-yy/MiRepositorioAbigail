@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetics Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #ffcccb;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ffcccb;
+            color: #333;
+        }
+        .product-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 30%;
+            margin: 10px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+        }
+        .product h3 {
+            color: #333;
+        }
+        .product p {
+            color: #777;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Welcome to Glamor Cosmetics
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="product-gallery" id="products">
+    <div class="product">
+        <img src="lipstick.jpg" alt="Lipstick">
+        <h3>Red Matte Lipstick</h3>
+        <p>$19.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="foundation.jpg" alt="Foundation">
+        <h3>Natural Glow Foundation</h3>
+        <p>$29.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="eyeshadow.jpg" alt="Eyeshadow Palette">
+        <h3>Colorful Eyeshadow Palette</h3>
+        <p>$24.99</p>
+        <button>Add to Cart</button>
+    </div>
+</section>
+
+<footer>
+    &copy; 2024 Glamor Cosmetics. All Rights Reserved.
+</footer>
+
+</body>
+</html>
